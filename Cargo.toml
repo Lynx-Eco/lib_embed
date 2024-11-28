@@ -1,0 +1,11 @@
+[package]
+name = "your_package_name"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ort = { version = "2.0.0-rc.9", features = [ "coreml", "half"] }
+ndarray = "0.16.1"
+anyhow = "1.0"
+tokenizers = "0.21.0"
+hf-hub = "0.3"
